@@ -6,7 +6,7 @@ a { color:inherit; text-decoration:none; }
 .hero { min-height:750px; color:var(--cream); background:linear-gradient(90deg,rgba(20,43,54,.78),rgba(20,43,54,.42) 52%,rgba(20,43,54,.12)),url("../img/flag.jpg") center/cover; }
 .site-nav { border-bottom:1px solid rgba(247,240,228,.3); }
 .site-nav .container { position:relative; padding-top:20px; padding-bottom:20px; }
-.site-logo { position:absolute; top:10px; left:50%; z-index:3; display:block; width:132px; transform:translateX(-50%); }
+.site-logo { position:absolute; top:10px; left:50%; z-index:3; display:block; width:150px; transform:translateX(-50%); }
 .site-logo img { display:block; width:100%; height:auto; }
 .site-nav .nav-link { color:rgba(247,240,228,.82); font-size:13px; }
 .site-nav .nav-link:hover { color:var(--cream); }
@@ -47,7 +47,7 @@ h2 { font-size:clamp(38px,4.6vw,60px); }
 footer { width:min(1320px,calc(100% - 48px)); margin:auto; padding:25px 0 34px; display:flex; justify-content:space-between; color:#767b70; font-size:12px; border-top:1px solid var(--line); }
 @media (max-width:767.98px) {
   .hero { min-height:680px; }
-  .site-logo { top:14px; width:92px; }
+  .site-logo { top:14px; width:108px; }
   .hero-content { padding-top:100px; padding-bottom:110px; }
   .section { padding-top:76px; padding-bottom:76px; }
   .service { min-height:auto; }
